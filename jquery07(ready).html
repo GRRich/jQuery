@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 제이쿼리 -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+    
+    <script>
+
+        //js -윈도우온로드 = 페이지 마지막에 실행(페이지별로 한번만 사용가능)
+        // window.onload = function() {
+        //     console.log( document.getElementById("btn") );
+        // }
+
+        //제이쿼리 - 도큐먼트레디 = 윈도우온로드의 상위호환(여러번사용가능)
+        $(document).ready(function() {
+            console.log( $("#btn") );
+        });
+
+        $(document).ready(function() {
+            console.log( $("#btn") );
+        });
+
+    </script>
+
+    <button type="button" id="btn">이벤트 등록</button>
+
+</body>
+</html>
