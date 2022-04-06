@@ -75,54 +75,54 @@
 
     <script>
 
-        var all = document.querySelectorAll("h3, p, a")
+        // var all = document.querySelectorAll("h3, p, a")
 
-        var btn = document.getElementById("dark");
-        btn.onclick = function() {
+        // var btn = document.getElementById("dark");
+        // btn.onclick = function() {
 
-            if( btn.className == "dark" ) {
+        //     if( btn.className == "dark" ) {
 
-                document.body.style.backgroundColor = "black";
-                for( var i = 0; i < all.length; i++ ) {
-                    all[i].style.color = "white";
-                }
-                btn.innerHTML = "밝게보기";
-                btn.className = "bright";
-            } else {
+        //         document.body.style.backgroundColor = "black";
+        //         for( var i = 0; i < all.length; i++ ) {
+        //             all[i].style.color = "white";
+        //         }
+        //         btn.innerHTML = "밝게보기";
+        //         btn.className = "bright";
+        //     } else {
 
-                document.body.style.backgroundColor = "white";
-                for( var i = 0; i < all.length; i++ ) {
-                    all[i].style.color = "black";
-                }
-                btn.innerHTML = "어둡게보기";
-                btn.className = "dark";
-            }
-        }
+        //         document.body.style.backgroundColor = "white";
+        //         for( var i = 0; i < all.length; i++ ) {
+        //             all[i].style.color = "black";
+        //         }
+        //         btn.innerHTML = "어둡게보기";
+        //         btn.className = "dark";
+        //     }
+        // }
 
-        //내용보기버튼
-        var p = document.querySelector(".inner > p");
-        var a = document.querySelector(".inner > a");
+        // //내용보기버튼
+        // var p = document.querySelector(".inner > p");
+        // var a = document.querySelector(".inner > a");
 
-        var btn2 = document.getElementById("name");
-        btn2.onclick = function() {
+        // var btn2 = document.getElementById("name");
+        // btn2.onclick = function() {
 
-            if( btn2.className == "name" ) {
+        //     if( btn2.className == "name" ) {
 
-                p.innerHTML = "홍길자<br>20세<br>능력단위<br>java,oracle...";
-                a.style.display = "none"; //a태그 숨김
+        //         p.innerHTML = "홍길자<br>20세<br>능력단위<br>java,oracle...";
+        //         a.style.display = "none"; //a태그 숨김
 
-                btn2.className = "cont"; //btn2클래스이름변경
-                btn2.innerHTML = "내용보기"; //btn2내용변경
-            } else {
+        //         btn2.className = "cont"; //btn2클래스이름변경
+        //         btn2.innerHTML = "내용보기"; //btn2내용변경
+        //     } else {
 
-                p.innerHTML = "자바스크립트는 객체 기반의 스크립트 프로그래밍 언어이다. 이 언어는 웹 브라우저 내에서 주로 사용하며, 다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고 있다. 또한 Node.js와 같은 런타임 환경과 같이 서버 프로그래밍에도 사용되고 있다.";
-                a.style.display = "inline"; //a태그 숨김
+        //         p.innerHTML = "자바스크립트는 객체 기반의 스크립트 프로그래밍 언어이다. 이 언어는 웹 브라우저 내에서 주로 사용하며, 다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고 있다. 또한 Node.js와 같은 런타임 환경과 같이 서버 프로그래밍에도 사용되고 있다.";
+        //         a.style.display = "inline"; //a태그 숨김
 
-                btn2.className = "name"; //btn2클래스이름변경
-                btn2.innerHTML = "이름보기"; //btn2내용변경
-            }
+        //         btn2.className = "name"; //btn2클래스이름변경
+        //         btn2.innerHTML = "이름보기"; //btn2내용변경
+        //     }
 
-        }
+        // }
 
     </script>
 
